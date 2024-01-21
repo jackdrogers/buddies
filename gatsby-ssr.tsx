@@ -1,0 +1,15 @@
+import React from 'react';
+import { Provider } from 'react-redux';
+import { store, persistor } from './src/state/configureStore';
+import { PersistGate } from 'redux-persist/integration/react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+export const wrapRootElement = ({ element }) => {
+  return (
+    <Provider store={store}>
+      <PersistGate loading="null" persistor={persistor}>
+        {element}
+      </PersistGate>
+    </Provider>
+  );
+};

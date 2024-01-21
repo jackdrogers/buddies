@@ -1,0 +1,37 @@
+[
+  {
+    "value": "",
+    "label": "Select a question",
+    "answers": []
+  },
+  {
+    "value": "question1",
+    "label": "Question 1",
+    "answers": ["answer1", "answer2", "answer3", "answer4", "answer5"]
+  },
+  {
+    "value": "question2",
+    "label": "Question 2",
+    "answers": ["yes", "no"]
+  },
+  {
+    "value": "question3",
+    "label": "Question 3",
+    "answers": ["answer1", "answer2", "answer3", "answer4", "answer5"]
+  },
+  {
+    "value": "question4",
+    "label": "Question 4",
+    "answers": ["wow", "cool", "yipee", "yay", "nice"]
+  },
+  {
+    "value": "question5",
+    "label": "Question 5",
+    "answers": ["answer1", "answer2", "answer3", "answer4", "answer5"]
+  },
+  {
+    "value": "question6",
+    "label": "Question 6",
+    "answers": ["diff1", "diff2", "diff3", "diff4", "diff5"]
+  }
+]
